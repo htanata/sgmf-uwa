@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
@@ -74,23 +74,24 @@
             var fundName = matches[1];
             
             // Get today's price.
-            matches = text.match(/<tr class=pagetablebody2>\s*<td .+>1\.<\/td>\s*<td .+>\s*([\d\.]+)/);
+            matches = text.match(/<tr class=pagetablebody2>\s*<td.*?>1\.<\/td>\s*<td.*?>\s*([\d\.]+)(.|[\s<>\/])*?>\w+ (\d+)/);
             var todayPrice = parseFloat(matches[1]);
+            var todayDate = parseFloat(matches[3]);
             
             // Get yesterday's price.
             matches = text.match(/<tr class=pagetablebody2B>\s*<td .+>2\.<\/td>\s*<td .+>\s*([\d\.]+)/);
             var yesterdayPrice = parseFloat(matches[1]);
             
-            SgmfWidget.setRow(SgmfWidget.getRowNo(fundId), fundName, SgmfWidget.sourceUrl + fundId, todayPrice, yesterdayPrice);
+            SgmfWidget.setRow(SgmfWidget.getRowNo(fundId), fundName, todayDate, SgmfWidget.sourceUrl + fundId, todayPrice, yesterdayPrice);
           }
         },
 
-        setRow: function(rowNo, fundName, url, todayPrice, yesterdayPrice) {
+        setRow: function(rowNo, fundName, todayDate, url, todayPrice, yesterdayPrice) {
           if(rowNo > 0) {
             var priceDiff = todayPrice - yesterdayPrice;
             var diffStyle = priceDiff > 0 ? 'class="price-up"' : priceDiff < 0 ? 'class="price-down"' : '';
 
-            html = '<td><a href="' + url + '">' + fundName + '</a></td>'
+            html = '<td><a href="' + url + '">' + fundName + '</a> ' + todayDate + '</td>'
                    + '<td style="text-align: right;"><b>' + todayPrice.toFixed(4) + '</b></td>'
                    + '<td style="text-align: right;"' + diffStyle + '><b>' + priceDiff.toFixed(4)
                      + ' (' + SgmfWidget.calcPercentage(todayPrice, yesterdayPrice).toFixed(2) + '%)</b></td>';
