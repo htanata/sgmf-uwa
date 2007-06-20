@@ -1,4 +1,5 @@
-#summary Fund ID reference to fill the preference setting.
+#summary Fund ID reference to fill the preference settings.
+#labels Featured
 
 = Fund ID Reference =
 _As of 20 Jun 2007_
