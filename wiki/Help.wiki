@@ -3,3 +3,7 @@
 
 = Help =
   * FundIdReference Fund ID reference to fill the preference settings.
+
+= FAQ =
+  * What is the number after the fund's name?
+   It's the date (day) of the price. This is added because the price update is not always at the same time.
