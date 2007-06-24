@@ -1,0 +1,5 @@
+#summary Help page
+#labels Featured
+
+= Help =
+  * FundIdReference Fund ID reference to fill the preference settings.
