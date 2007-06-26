@@ -7,3 +7,6 @@
 = FAQ =
   * What is the number after the fund's name?
    It's the date (day) of the price. This is added because the price update is not always at the same time.
+
+  * Why don't you put the fund name as a drop down list so I don't have to see the fund ID reference?
+   I wish I could but the list is quite large and the widget would not load when I tried it. Besides, it will make the widget size quite big. And since you don't select the fund name everyday, I guess this is the best way.
