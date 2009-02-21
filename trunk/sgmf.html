@@ -146,10 +146,6 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       }
 
       widget.onLoad = function() {
-        if (document.location && document.location.hostname == 'localhost') {
-          UWA.proxies.ajax = 'ajaxProxy.php';
-        }
-
         // Initialization.
         SgmfWidget.tbody = widget.body.getElementsByTagName('tbody')[0];
 
