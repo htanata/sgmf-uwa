@@ -37,7 +37,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
     <meta name="author" content="Hendy Tanata" />
     <meta name="description" content="Singapore mutual funds daily price." />
-    <meta name="version" content="0.1" />
+    <meta name="version" content="0.2" />
     <meta name="keywords" content="funds, mutual fund, finance, unit trust, singapore" />
     <meta name="website" content="http://codeftw.blogspot.com" />
     <meta name="apiVersion" content="1.0" />
@@ -103,12 +103,12 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             var fundName = matches[1];
             
             // Get today's price.
-            matches = text.match(/<tr class=pagetablebody2>\s*<td.*?>1\.<\/td>\s*<td.*?>\s*([\d\.]+)(.|[\s<>\/])*?>\w+ (\d+)/);
+            matches = text.match(/<tr class=table_bdrow1_style>\s*<td.*?>1\.<\/td>\s*<td.*?>\s*([\d\.]+)(.|[\s<>\/])*?>\w+ (\d+)/);
             var todayPrice = parseFloat(matches[1]);
             var todayDate = parseFloat(matches[3]);
             
             // Get yesterday's price.
-            matches = text.match(/<tr class=pagetablebody2B>\s*<td .+>2\.<\/td>\s*<td .+>\s*([\d\.]+)/);
+            matches = text.match(/<tr class=table_bdrow2_style>\s*<td .+>2\.<\/td>\s*<td .+>\s*([\d\.]+)/);
             var yesterdayPrice = parseFloat(matches[1]);
             
             SgmfWidget.setRow(SgmfWidget.getRowNo(fundId), fundName, todayDate, SgmfWidget.sourceUrl + fundId, todayPrice, yesterdayPrice);
