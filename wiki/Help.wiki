@@ -5,6 +5,9 @@
   * FundIdReference Fund ID reference to fill the preference settings.
 
 = FAQ =
+  * How to fill the Fund ID?
+    Go to FundIdReference and find the fund name and the associated fund ID.
+
   * What is the number after the fund's name?
    It's the date (day) of the price. This is added because the price update is not always at the same time.
 
