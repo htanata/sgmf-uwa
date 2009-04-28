@@ -2,24 +2,15 @@
 #labels Featured
 
 = Fund ID Reference =
-_As of 20 Jun 2007_
+_As of 28 Apr 2009_
 
 || *Fund Name* || *Fund ID* ||
-|| AB Asian Technology Ptfl A SGD || ACM063 ||
-|| AB Glb Balanced A SGD || ACM013 ||
-|| AB Glb Eqty Blend A SGD || ACM019 ||
-|| AB Glb Eqty Blend A USD || ACM021 ||
-|| AB Glb Grth Trends Porf A SGD || ACM062 ||
-|| AB Int Health Care A SGD || ACM061 ||
-|| ABN AMRO Brazil Equity Fund A USD || ABN007 ||
-|| ABN AMRO EastEur Eqty Fd A EUR || 994360 ||
-|| ABN AMRO Energy Fd A USD || 493897 ||
-|| ABN AMRO GEM Bd EUR A || 398765 ||
-|| ABN AMRO GEM Bd USD A || 494788 ||
-|| ABN AMRO L.Am Eqt Fd A USD || ANLAAU ||
-|| ABN AMRO Materials Fd A EUR || ANMATA ||
-|| ABN AMRO Multi St Fd || ANMUST ||
-|| ABN AMRO Russia Eqt Fd A EUR || ANRUAE ||
+|| AB Asian Technology-A SGD || ACM063 ||
+|| AB Glb Balanced-A SGD || ACM013 ||
+|| AB Glb Eqty Blend-A SGD || ACM019 ||
+|| AB Glb Eqty Blend-A USD || ACM021 ||
+|| AB Glb Grth Trends-A SGD || ACM062 ||
+|| AB Int Health Care-A SGD || ACM061 ||
 || ABN AMRO Star Asia Balanced || 370212 ||
 || ABN AMRO Star Asia Bond || 370213 ||
 || ABN AMRO Star Asian Tiger Eqty || 370211 ||
@@ -27,14 +18,13 @@ _As of 20 Jun 2007_
 || ABN AMRO Star Europe Bond || 370146 ||
 || ABN AMRO Star Europe Eqty || 370145 ||
 || ABN AMRO Star Global Technology Fund || 370161 ||
-|| ABN AMRO Utilities Fd A EUR || ANUTLA ||
 || AIGIF Acorns of Asia Balanced Fund || AGAOAB ||
 || AIGIF Singapore Bond Fund || AGSGBF ||
 || APS Alpha Fund || APALPH ||
 || APS Komaba Global Bond SGD || APK001 ||
 || AXA WM -Talents Fund || AXATAL ||
 || Aberdeen American Opp || 370120 ||
-|| Aberdeen Asian High Yield || 370092 ||
+|| Aberdeen Asian Credit Fund || 370092 ||
 || Aberdeen Asian Smaller Cos || ABE002 ||
 || Aberdeen China Opportunities || ABCHOP ||
 || Aberdeen European Opportunities || 370118 ||
@@ -49,9 +39,11 @@ _As of 20 Jun 2007_
 || Aberdeen Singapore Equity || 370087 ||
 || Aberdeen Singapore Equity USD || ABE001 ||
 || Aberdeen Thailand Equity || 370086 ||
-|| AllianzGI Asia Tiger || 370060 ||
+|| Allianz RCM Oriental Inc Cl AT Acc USD || ALZ063 ||
+|| AllianzGI Choice Eq SGD || ALZ012 ||
 || AllianzGI Global Internet || 370243 ||
 || AllianzGI RCM Glb High Payout(SGD) || ALZ001 ||
+|| BNP Paribas Agriculture (SGD) Fund || BNPPAS ||
 || Cash Fund || PAM036 ||
 || DBS Absolute Rtrn Fd || DBABRE ||
 || DBS Asia Bond Fund SGD (Cl A) || DBABSA ||
@@ -61,7 +53,6 @@ _As of 20 Jun 2007_
 || DBS Japan Growth || 370002 ||
 || DBS Malaysia Eqty SGD || DBMASG ||
 || DBS Mendaki Global || 370084 ||
-|| DBS SWING 6/3/100% || DBSW63 ||
 || DBS Shenton Asia Pacific || 370005 ||
 || DBS Shenton Dynamic Bond || 370041 ||
 || DBS Shenton Glb Opportunities || 370067 ||
@@ -71,25 +62,49 @@ _As of 20 Jun 2007_
 || DBS Shenton Income || 370006 ||
 || DBS Shenton Thrift || 370007 ||
 || DBS Shenton Twin City || 370008 ||
-|| DWS Asia Premier Tst || 370011 ||
+|| DWS Asia Premier Tst Cl A || 370011 ||
+|| DWS Asia Select Class A2 (SGD) || DWS054 ||
 || DWS Asian Small/Mid Cap A SGD || DWS002 ||
 || DWS China Eqty Fund Cl A SGD || DECEAS ||
 || DWS Currency SGD || DECURR ||
+|| DWS Currency USD || DECUAU ||
+|| DWS Glb Climate Change Cl A SGD || DWS050 ||
+|| DWS Glb Inflation Buster A2 SGD || DWS052 ||
 || DWS Glb Themes Eqty A SGD || DWS009 ||
 || DWS Global Agribiz A2 SGD || DWS021 ||
 || DWS Global Agribiz A2 USD || DWS014 ||
+|| DWS India Eqty Fd Cl A SGD || DEINAS ||
 || DWS Invest BRIC Pl LC EUR || DWBRLE ||
+|| DWS Invest New Resources A2 (USD) || DWI001 ||
 || DWS Jpn Small/Mid Cap A SGD || DWS001 ||
-|| DWS Lion Bond Fund || 370093 ||
+|| DWS Lion Bond Cl A || 370093 ||
 || DWS Noor Asia Pac Eq CL A USD || DWS020 ||
 || DWS Noor China Eq CL A USD || DWS018 ||
 || DWS Noor Glb Eq Sel CL J SGD || DWS016 ||
 || DWS Noor Japan Eq CL A USD || DWS019 ||
 || DWS Noor Prec Metals CL A USD || DWS017 ||
+|| DWS Noor Prec Metals CL J SGD || DWS023 ||
 || DWS Prem Asian Bond Fd || 370075 ||
 || DWS Premier Select Tst || 370012 ||
 || DWS SGP small/midCap A SGD || DWSSMC ||
 || DWS Singapore Eqty Fd || DESGEQ ||
+|| FLF Bd Best Selection Wld Em E-H EUR || FOR012 ||
+|| FLF Bd Best Selection Wld Em USD || FOR011 ||
+|| FLF Eq Brazil USD || FOR010 ||
+|| FLF Eq Energy World USD || FOR001 ||
+|| FLF Eq Europe EUR || FOR007 ||
+|| FLF Eq Europe Emerging EUR || FOR002 ||
+|| FLF Eq Finance World EUR || FOR003 ||
+|| FLF Eq Latin America USD || FOR005 ||
+|| FLF Eq Materials World EUR || FOR008 ||
+|| FLF Eq Russia EUR || FOR006 ||
+|| FLF Eq Utilities World EUR || FOR004 ||
+|| FLF Opportunities USA USD || FOR009 ||
+|| FTIF-Templeton Asian Grth A(acc) SGD || FTIFTAG ||
+|| FTIF-Templeton Glb Bal Fd A(acc) SGD || FTIFTGB ||
+|| FTIF-Templeton Glb Bond A(mdis) SGD || FTIFGBO ||
+|| FTIF-Templeton Global Fd A(acc) SGD || FTIFGLB ||
+|| FTIF-Templeton Korea Fd A(acc) SGD || FTIFTK ||
 || Fidelity AP Gth&Inc A-SGD || FI3017 ||
 || Fidelity AP Gth&Inc USD || FIAPGU ||
 || Fidelity ASEAN A-SGD || FI3018 ||
@@ -100,6 +115,7 @@ _As of 20 Jun 2007_
 || Fidelity China Focus-SGD || FI3020 ||
 || Fidelity EUR Agg A-SGD || FI3008 ||
 || Fidelity EUR HY A-SGD || FI3010 ||
+|| Fidelity EmEu,ME&Africa USD || FID008 ||
 || Fidelity Emer Mkt A-SGD || FI3014 ||
 || Fidelity EmerMktDebt A-SGD || FI3015 ||
 || Fidelity Eur Agg EUR || FIFEAG ||
@@ -108,12 +124,14 @@ _As of 20 Jun 2007_
 || Fidelity Eur HY AMDIST EUR || FIEHYA ||
 || Fidelity Eur HY EUR || FIEUHY ||
 || Fidelity FPS Glb Gth USD || FIGLGR ||
-|| Fidelity Fin Serv EUR || FIFINS ||
 || Fidelity France EUR || FIFRAE ||
 || Fidelity Germany EUR || FIGERE ||
+|| Fidelity Glb Fin Serv EUR || FIFINS ||
+|| Fidelity Glb Health Care EUR || FIHLTC ||
+|| Fidelity Glb Infla Bond Sgd-Hged || FI3036 ||
+|| Fidelity Glb Technology EUR || FITECH ||
 || Fidelity Gr China USD || FIGCHN ||
 || Fidelity Gth & Inc A-SGD || FI3002 ||
-|| Fidelity Health Care EUR || FIHLTC ||
 || Fidelity Iberia EUR || FIIBEE ||
 || Fidelity Indonesia USD || FIINDO ||
 || Fidelity Intl A-SGD || FI3001 ||
@@ -129,80 +147,70 @@ _As of 20 Jun 2007_
 || Fidelity S East Asia USD || FISEAU ||
 || Fidelity Taiwan USD || FITAWN ||
 || Fidelity Target 2020 A-SGD || FI3007 ||
-|| Fidelity Technology EUR || FITECH ||
 || Fidelity Thailand USD || FITHAI ||
 || Fidelity US HY A-SGD || FI3012 ||
 || Fidelity US HY AMDIST USD || FIUHYA ||
 || Fidelity US HY USD || FIUSHY ||
 || Fidelity USD Bd USD || FIUSBO ||
-|| First State Asia Inno & Tech || 370172 ||
+|| First State Asia Innovation Fund || 370172 ||
 || First State Asian Growth Fd || 370046 ||
 || First State Bridge || FSBRDG ||
 || First State Dividend Advantage || FSDVAD ||
 || First State GEM Leaders || FSGEML ||
-|| First State Glb 100 Gth || 370112 ||
 || First State Glb Bal || 370042 ||
+|| First State Glb Infrastr || FSGISF ||
 || First State Glb Prop Invt || FSGPIS ||
 || First State Glb Resources || FSGBRE ||
+|| First State Global Opportunities Fund || 370112 ||
 || First State Reg China || 370047 ||
 || First State Reg India || 370048 ||
 || First State Singapore Gth || 370049 ||
-|| Franklin Float Rate Fd-Cl A Acc || FRFRAA ||
-|| Franklin Templeton F-Asian Bd || FTF004 ||
-|| Franklin Templeton F-Asian Eqty || 370065 ||
-|| Franklin Templeton F-BRIC Fund || FTF001 ||
-|| Franklin Templeton F-China || 370063 ||
-|| Franklin Templeton F-Emerg Mkts || 370061 ||
-|| Franklin Templeton F-European Equity Fund || FTEUEQ ||
-|| Franklin Templeton F-Franklin High Yield Bond || 370097 ||
-|| Franklin Templeton F-Franklin Income Fund || FTINCF ||
-|| Franklin Templeton F-Franklin Lif Sci || 370290 ||
-|| Franklin Templeton F-Franklin US Agg Gr || 370323 ||
-|| Franklin Templeton F-Franklin US Govt || FTUSGV ||
-|| Franklin Templeton F-Gbl Sm Co || 370077 ||
-|| Franklin Templeton F-Global Bal || 370096 ||
-|| Franklin Templeton F-Global Bond Fund || FTGLBD ||
-|| Franklin Templeton F-Global Eqty || 370074 ||
-|| Franklin Templeton F-Global Eqty Income || FTGEIN ||
-|| Franklin Templeton F-Japan || 370232 ||
-|| Franklin Templeton F-Korea || 370066 ||
-|| Franklin Templeton F-Latin America Fund || FTF002 ||
-|| Franklin Templeton F-Mut Beac || 370111 ||
-|| Franklin Templeton F-Thailand || 370085 ||
+|| Fullerton Asian Financials CL A || FUL002 ||
 || GrowthPath 2030 || UBGP30 ||
 || GrowthPath 2040 || UBGP40 ||
+|| HGIF Asia Ex-Jap Eq Sm Cos SGD AD || HSB021 ||
+|| HGIF Asia ex Jap Eq-A SGD || SGAEFS ||
 || HGIF Chinese Eq-A SGD || SGCEES ||
+|| HGIF Climate Change SGD Cl AD || HSB027 ||
+|| HGIF EUR Eq-P SGD || SGPEES ||
 || HGIF GEM Eq Freestyle SGD || HSB002 ||
+|| HGIF Glb Eq Fund-A SGD || SGGOFS ||
+|| HGIF Indian Eq-A SGD || SGIEFS ||
+|| HGIF Japanese Eq-P SGD || SGJEFS ||
+|| HGIF Korean Eqty SGD Cl AD || HSB030 ||
 || HGIF Spore Eq-A USD || SGSEFU ||
+|| HGIF Taiwan Eqty SGD Cl AD || HSB036 ||
 || HGIF Thai Eqty Fd USD || HSGITU ||
-|| HSBC Asian Growth || 370116 ||
+|| HGIF Turkey Equity Fund SGD CL AD || HSB038 ||
 || HSBC BRIC Freestyle M2C SGD || HSBRFS ||
-|| HSBC Chinese Growth || 370250 ||
-|| HSBC Global Growth || 370129 ||
-|| HSBC Indian Growth || 370251 ||
-|| HSBC Japanese Growth || 370171 ||
-|| HSBC Pan European Growth || 370170 ||
 || HSBC Turbo Double 8 USD || HSTBD8 ||
-|| Henderson Asia Bonus Pyt II (SGD) || HABPF2 ||
 || Henderson Asia-Pacific Prop Eq Fd || HEN001 ||
 || Henderson European || 370273 ||
 || Henderson European Prop Sec || 370155 ||
 || Henderson Glb Property Eq Fd || HEGPRE ||
 || Henderson Global Balanced Fund || HEGBFD ||
 || Henderson Global Bond Fund - Class A Units || HEGBCA ||
-|| Henderson Global Equity Fund || HEGEFD ||
 || Henderson Global Technology || 370102 ||
-|| Henderson Hzn Asia-Pac Prop Eq USD || HEN002 ||
-|| Henderson Hzn Asian Div Inc USD || HEN003 ||
-|| Henderson Hzn Gl Prop Eq USD || HEHGPE ||
-|| Henderson Hzn Pan Europn Prop Eq EUR || HEHPEP ||
+|| Henderson Hzn Asia-Pac Prop Eq-A2 USD || HEN002 ||
+|| Henderson Hzn Asian Div Inc-A2 SGD || HEN010 ||
+|| Henderson Hzn Asian Div Inc-A2 USD || HEN003 ||
+|| Henderson Hzn China A2 SGD || HEN011 ||
+|| Henderson Hzn China A2 USD || HENCHN ||
+|| Henderson Hzn Gl Prop Eq-A2 USD || HEHGPE ||
+|| Henderson Hzn Glb Financials A2 EUR || HEN015 ||
+|| Henderson Hzn Glb Financials A2 SGD || HHGFS ||
+|| Henderson Hzn Pan Eur Alp A2 EUR || HENPEA ||
+|| Henderson Hzn Pan Europn Prop Eq-A2 EUR || HEHPEP ||
 || Henderson Japanese Equity || HEJPEQ ||
 || Henderson Pacific Dragon || 370309 ||
 || ING Inv Emg Mkts USD || IGIEME ||
 || ING Inv Glob High Div EUR || IGIGHD ||
 || ING RF Asian Debt USD || IGRADT ||
 || ING RF Em Mkts Debt HC EUR || IGREMD ||
-|| ING Singapore Dollar Bond Fd || IGSDBD ||
+|| IOF- US High Invt Grade Bond S$ F || PAM021 ||
+|| IOF- US High Yield Bond SGD Cl F || PAM025 ||
+|| IOF- US Invt Grade Bond SGD F || PAM023 ||
+|| IOF-Asian Property Sec SGD Cl Fd || PAMAPRFD ||
 || Infinity European Stock Index || 370282 ||
 || Infinity Global Stock Index || 370281 ||
 || Infinity US 500 Stock Index || 370283 ||
@@ -212,68 +220,87 @@ _As of 20 Jun 2007_
 || Legg Mason SEA Special Sits || 370101 ||
 || Legg Mason Val Fd Cl A Acc-S$ || LGM003 ||
 || Legg Mason Val Fd Cl A Acc-US$ || LGM002 ||
-|| Legg Mason Worldwide Ent Trst || 370081 ||
-|| Lion Capital AsPac Recovery || 370013 ||
-|| Lion Capital Asia Infrastructure || 370057 ||
-|| Lion Capital Asia Pacific || 370043 ||
-|| Lion Capital Asia Technology || 370245 ||
-|| Lion Capital Australia SGD || LCP002 ||
-|| Lion Capital China Growth || 370015 ||
-|| Lion Capital Europe Balanced- SGD Class || 370122 ||
-|| Lion Capital Glb Hthcare Invt-A || OCGLHI ||
-|| Lion Capital Glb Ind & Res Invt-A || OCGLRI ||
-|| Lion Capital Global Bond(Cl A) || 370016 ||
-|| Lion Capital Global Flexi || LCP001 ||
-|| Lion Capital India || 370131 ||
-|| Lion Capital Japan Fund || 370156 ||
-|| Lion Capital Japan Growth || 370206 ||
-|| Lion Capital Korea || 370123 ||
-|| Lion Capital Malaysia || 370244 ||
-|| Lion Capital Multi Income || LCP008 ||
-|| Lion Capital Philippines || 370071 ||
-|| Lion Capital SGD Income Plus || OCSGIP ||
-|| Lion Capital SGD Money Market || 370209 ||
-|| Lion Capital Singapore Balanced || 370035 ||
-|| Lion Capital Singapore Trust || 370017 ||
-|| Lion Capital Singapore/Malaysia || 370014 ||
-|| Lion Capital South East Asia || 370054 ||
-|| Lion Capital Spore Fixed Inc-A || OCSGFI ||
-|| Lion Capital Taiwan || 370233 ||
-|| Lion Capital Target Return || 370100 ||
-|| Lion Capital Thailand || 370157 ||
-|| Lion Capital Vietnam SGD || LCP005 ||
+|| LionGlobal AUD Short Duration Fund || LCAUDSG ||
+|| LionGlobal AsPac Recovery || 370013 ||
+|| LionGlobal Asia Infrastructure || 370057 ||
+|| LionGlobal Asia Pacific || 370043 ||
+|| LionGlobal Asia Technology || 370245 ||
+|| LionGlobal Australia SGD || LCP002 ||
+|| LionGlobal Bond(Cl A) || 370016 ||
+|| LionGlobal China Growth || 370015 ||
+|| LionGlobal Europe Balanced- SGD Class || 370122 ||
+|| LionGlobal Flexi || LCP001 ||
+|| LionGlobal Hthcare Invt-A || OCGLHI ||
+|| LionGlobal Ind & Res Invt-A || OCGLRI ||
+|| LionGlobal India Fund || 370131 ||
+|| LionGlobal Japan Fund || 370156 ||
+|| LionGlobal Japan Growth Fund || 370206 ||
+|| LionGlobal Korea Fund || 370123 ||
+|| LionGlobal Malaysia || 370244 ||
+|| LionGlobal Multi Income || LCP008 ||
+|| LionGlobal Philippines || 370071 ||
+|| LionGlobal SGD Income Plus || OCSGIP ||
+|| LionGlobal SGD Money Market || 370209 ||
+|| LionGlobal Singapore Balanced || 370035 ||
+|| LionGlobal Singapore Trust || 370017 ||
+|| LionGlobal Singapore/Malaysia || 370014 ||
+|| LionGlobal South East Asia || 370054 ||
+|| LionGlobal Spore Fixed Inc-A || OCSGFI ||
+|| LionGlobal Taiwan || 370233 ||
+|| LionGlobal Target Return || 370100 ||
+|| LionGlobal Thailand || 370157 ||
+|| LionGlobal Vietnam SGD || LCP005 ||
 || M&G American Fd EUR A || PAM002 ||
-|| OCBC Asia Star Opport Fd 1 || OCSAS1 ||
-|| OCBC Capital Payout SGD || OCCPSF ||
-|| OCBC Payout Select 100 II || OCPS21 ||
-|| OCBC Payout Select 85 II || OCPS28 ||
 || PIMCO Emerg Mkt Bond USD || DRPEMB ||
 || PIMCO Glb Bond USD || DRPGBB ||
+|| PIMCO Glb Inv Gr Credit USD Cl H || ALZ021 ||
 || PIMCO High Yield Bond USD || DRPHYB ||
 || PIMCO Total Return BondUSD || DRPTRB ||
-|| PIMCO USD Short Term USD || DRPUST ||
+|| PRU 3Plus || PAM042 ||
 || PRU Asian Balanced Fund || PPASBL ||
+|| PRU Asian Infrastructure Eqty SGD || PAM037 ||
 || PRU Dragon Peacock Fund || PPDRPF ||
+|| PRU Glb Positioning Strategy SGD || PAM043 ||
+|| PRU Global Balanced Fund || PAMGBL ||
 || PRU Global Basics Fd SGD Cl || PPGLBA ||
 || PRU Global Basics Fd USD Cl || PAM035 ||
 || PRU Global Technology Fund || PPGTFS ||
 || PRU Income X || PAM034 ||
-|| PRU Japan Smaller Co Fund || PPJPSC ||
 || PRU Mthly Income Plan Cl A || PPMIPA ||
 || PRU Mthly Income Plan Cl M || PPMIPM ||
 || PRU Pan European Fund || PPEBEF ||
 || PRU Protected Global Titans Fund (S$) || PPPGTS ||
+|| Parvest Asian Conv Bond || BNP006 ||
+|| Parvest BRIC || BNP008 ||
+|| Parvest Brazil || BNP007 ||
+|| Parvest Convg Europe (EUR) || BNP005 ||
+|| Parvest EUR Conv Bond (EUR) || BNP014 ||
+|| Parvest Emerging Mkts || BNP010 ||
+|| Parvest Europe Alpha EUR || BNP022 ||
+|| Parvest Europe Div (EUR) || BNP004 ||
+|| Parvest Europe Financials (EUR) || BNP011 ||
+|| Parvest Europe Mid Cap (EUR) || BNP012 ||
+|| Parvest Target Rtn Plus (EUR) || BNP021 ||
 || Phillip Asia Pac Growth || 370036 ||
 || Phillip Growth Fund || 379997 ||
 || Phillip Money Market || 379999 ||
+|| RREEF APEC Real Est USD LQ || DREFAPRE ||
+|| RREEF Gl Real Est Sec LC USD || DRE003 ||
+|| RREEF Gl RealEst Inc Sec LC SGD H || DRE002 ||
+|| RREEF Gl RealEst Inc Sec LQ USD H || DRE001 ||
 || SGAM Asian Re Est Div SGD || SGARES ||
 || SGAM Bonus Builder Fund || SGBBFD ||
 || SGAM Glb Luxury & Lifestyle S$ || SGY001 ||
-|| SGAM Global Guaranteed Fd || SGGLGR ||
 || SGAM Golden China Fund S$ || SGGDCF ||
+|| SGAM India Infrastructure Fd || SGAMIDIF ||
+|| SGAM Oasis MENA Fund SGD || SGOMENA ||
 || SGAM Spore Dividend Growth || SGSDIG ||
 || SGAM Total Return Bond S$ || SGTRBS ||
 || SGAM US Diversified Bond Fd S$ || SGHYBS ||
+|| Schroder AS Commo EUR A Acc || SCASCEU ||
+|| Schroder AS Commo USD A Acc || SCASCUS ||
+|| Schroder AS Commodity Fd SGD A Acc || SCASCOM ||
+|| Schroder AS Gold&Metals A Acc SGD || SCD019 ||
 || Schroder Active Strategies Ptfl S$ Cl || SDASPS ||
 || Schroder Active Strategies Ptfl US$ Cl || SDASPU ||
 || Schroder Asian Balanced Fund Cl A || 370020 ||
@@ -289,41 +316,40 @@ _As of 20 Jun 2007_
 || Schroder European Eq Yld Fd || SCD005 ||
 || Schroder European Equity Alpha Fund || SDEEAL ||
 || Schroder European Large Cap Eqty Fd || 370114 ||
-|| Schroder Global Enterprise Fund || 370040 ||
 || Schroder Global High Yield Fund || SDGLHY ||
 || Schroder Global Smaller Cos Fund || 370154 ||
-|| Schroder Global Technology Fund || 370351 ||
 || Schroder Golden Blossom Fund || SCD013 ||
 || Schroder Greater China Fund || 370070 ||
+|| Schroder ISF EM Debt Ab Rt A Dis SGD || SCD018 ||
 || Schroder ISF Em Eur A Acc EUR || SDIEGA ||
 || Schroder ISF Euro Eq Alp A Acc EUR || SDIEEA ||
+|| Schroder ISF Gb Climate Ch Eq A Acc SGD || SCD015 ||
+|| Schroder ISF Gb Div Max A ACC SGD || SCGDVM ||
+|| Schroder ISF Gb Div Max A DIS SGD || SCGDVMD ||
 || Schroder ISF Gl Em Mkt Opp A Acc SGD || SCD012 ||
+|| Schroder ISF Gl Em Mkt Opp A Acc USD || SCD011 ||
+|| Schroder ISF Glb Co Bnd A Acc USD || SCD020 ||
+|| Schroder ISF Glb Co Bnd SGD Hedge || SCD021 ||
+|| Schroder ISF Latin American A Acc SGD || SCD016 ||
 || Schroder ISF Latin American A Acc USD || SCD003 ||
+|| Schroder ISF Middle East SGD A Acc || SCMIDE ||
 || Schroder Japanese Eqty Alpha Fd || SDJEAS ||
 || Schroder Japanese Equity Fund || 370166 ||
 || Schroder Multi-Express Fd || SDSMEF ||
 || Schroder Pan Asia Fund || 370069 ||
-|| Schroder S$ Dual Advantage 100 Fund || SSDA100F ||
-|| Schroder S$ Dual Advantage 85 Fund || SSDA85F ||
-|| Schroder S$ Enhc Return Fund || SSENRF ||
-|| Schroder S$ Reserve Fund || SDSRSF ||
+|| Schroder S$ Reserve Fund Cl A || SDSRSF ||
 || Schroder Singapore Trust Cl A || 370018 ||
 || Schroder Strategic Bond Fund || SDSTBD ||
-|| UBS (SG) IF-Asian Technology || 370389 ||
-|| UBS (SG) IF-Biotech || 370347 ||
-|| UOB Optimix Affluence || 370078 ||
+|| UBS Absolute Rtn Plus SGD || UBS004 ||
+|| UBS Asian Consumption SGD RA || UBS005 ||
 || UOB Optimix Asian Bond || 370248 ||
-|| UOB Optimix Cont Click  S&P 500 SGD || 370316 ||
-|| UOB Optimix Contrarian || 370113 ||
 || UOB Optimix E-Commerce || 370249 ||
 || UOB Optimix SGD Fund || 370124 ||
 || UOB Optimix Sure Fund || OPSURF ||
 || UOB Unifund || 370032 ||
-|| UOB United Apec Equity Fund || 370038 ||
 || UOB United Asia Fund || 370033 ||
 || UOB United Asia Top 50 || 370204 ||
 || UOB United European Equity Fund || 370079 ||
-|| UOB United European Small Cap Fund || 370247 ||
 || UOB United Glb Emerging Mkts Portfolios S$ || UBGEMS ||
 || UOB United Global Bond SGD || 370149 ||
 || UOB United Global Capital Fund || 370059 ||
@@ -341,15 +367,18 @@ _As of 20 Jun 2007_
 || UOB United Millennium Trusts 2 || 370152 ||
 || UOB United Millennium Trusts 3 || 370153 ||
 || UOB United Regional Growth Fund || 370044 ||
-|| UOB United S$ Conv Bond Fd || UOBSCB ||
 || United Asia Pac Infrastructure || UOB003 ||
 || United Asian Growth Opprt || UBASGO ||
-|| United Cap Pro Fd - Series 3 SGD || UBCPS3 ||
+|| United Commodities Plus Fd SGD || UOB021 ||
 || United Enhc Income Fd || UOB016 ||
+|| United European Small/Mid Cap Fund || 370247 ||
 || United Glb Real Estate Sec Fd || UBGRES ||
 || United Global IPO Fund || UBGIPO ||
 || United Global Resources Fund || UOB002 ||
-|| United MSF-Goal 120+ SGD || UBMG1S ||
+|| WIOF Adriatic-Balkan Opp A SGD || WIOFADBA ||
+|| WIOF CIS Bond A EUR || WIOF001 ||
+|| WIOF Central Asian Opp A SGD || WIOFCASO ||
+|| WIOF Greece-Cyprus Opp A SGD || WIOFGRCY ||
+|| WIOF Russian Opp Eqty A SGD || WIOFRSOP ||
 || Yield 15 || PPYD15 ||
 || Yield 20 USD || PPYD20 ||
-|| Yield Enhancement Fund || AGYDEN ||
