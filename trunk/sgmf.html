@@ -37,7 +37,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
     <meta name="author" content="Hendy Tanata" />
     <meta name="description" content="Singapore mutual funds daily price." />
-    <meta name="version" content="0.2" />
+    <meta name="version" content="0.2.1" />
     <meta name="keywords" content="funds, mutual fund, finance, unit trust, singapore" />
     <meta name="website" content="http://codeftw.blogspot.com" />
     <meta name="apiVersion" content="1.0" />
@@ -99,7 +99,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             var fundId = fundIdMatch[1];
             
             // Get fund name.
-            var matches = text.match(/<b>(.+)<\/b>/);
+            var matches = text.match(/<b>\s*(.+?)\s*?<\/b>/m);
             var fundName = matches[1];
             
             // Get today's price.
