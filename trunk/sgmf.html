@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--
 Copyright (c) 2007, Hendy Tanata
@@ -44,25 +44,25 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <meta name="inline" content="true" />
     <meta name="debugMode" content="false" />
 
-    <link rel="stylesheet" type="text/css" 
+    <link rel="stylesheet" type="text/css"
       href="http://www.netvibes.com/themes/uwa/style.css" />
-    <script type="text/javascript" 
+    <script type="text/javascript"
       src="http://www.netvibes.com/js/UWA/load.js.php?env=Standalone"></script>
 
-    <title>Singapore Mutual Funds</title> 
-    <link rel="icon" type="image/gif" 
+    <title>Singapore Mutual Funds</title>
+    <link rel="icon" type="image/gif"
       href="http://widgetftw.googlepages.com/sgmf_ico.gif" />
 
     <widget:preferences>
-      <preference name="fundId1" type="text" label="Fund ID 1" 
+      <preference name="fundId1" type="text" label="Fund ID 1"
         defaultValue="FIKORE" />
-      <preference name="fundId2" type="text" label="Fund ID 2" 
+      <preference name="fundId2" type="text" label="Fund ID 2"
         defaultValue="370051" />
-      <preference name="fundId3" type="text" label="Fund ID 3" 
+      <preference name="fundId3" type="text" label="Fund ID 3"
         defaultValue="FIINDO" />
-      <preference name="fundId4" type="text" label="Fund ID 4" 
+      <preference name="fundId4" type="text" label="Fund ID 4"
         defaultValue="370090" />
-      <preference name="fundId5" type="text" label="Fund ID 5" 
+      <preference name="fundId5" type="text" label="Fund ID 5"
         defaultValue="370048" />
     </widget:preferences>
 
@@ -74,7 +74,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       .price-down {
         color: red;
       }
-      
+
       table.nv-datagrid td {
         border-top: 0px;
         border-left: 0px;
@@ -113,16 +113,16 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             // Get fund name.
             var matches = text.match(/<b>\s*(.+?)\s*?<\/b>/m);
             var fundName = matches[1];
-            
+
             // Get today's price.
             matches = text.match(/<tr class=table_bdrow1_style>\s*<td.*?>1\.<\/td>\s*<td.*?>\s*([\d\.]+)(.|[\s<>\/])*?>\w+ (\d+)/);
             var todayPrice = parseFloat(matches[1]);
             var todayDate = parseFloat(matches[3]);
-            
+
             // Get yesterday's price.
             matches = text.match(/<tr class=table_bdrow2_style>\s*<td .+>2\.<\/td>\s*<td .+>\s*([\d\.]+)/);
             var yesterdayPrice = parseFloat(matches[1]);
-            
+
             SgmfWidget.setRow(SgmfWidget.getRowNo(fundId), fundName, todayDate, SgmfWidget.sourceUrl + fundId, todayPrice, yesterdayPrice);
           }
         },
