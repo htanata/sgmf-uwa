@@ -37,7 +37,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
     <meta name="author" content="Hendy Tanata" />
     <meta name="description" content="Singapore mutual funds daily price." />
-    <meta name="version" content="0.2.1" />
+    <meta name="version" content="0.2.2" />
     <meta name="keywords" content="funds, mutual fund, finance, unit trust, singapore" />
     <meta name="website" content="http://codeftw.blogspot.com" />
     <meta name="apiVersion" content="1.0" />
@@ -90,14 +90,26 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         numOfFund: 5,
         tbody: null,
 
-        parse: function(text) {
-          // Get fund ID and also determine if the fund ID is valid.
-          var fundIdMatch = text.match(/sedolnumber=(\w+)/);
+        // Stupid, lazy way to work around fundId doesn't exist on the document.
+        parseMagic1: function(text) {
+          SgmfWidget.parse(text, widget.getValue('fundId1'));
+        },
+        parseMagic2: function(text) {
+          SgmfWidget.parse(text, widget.getValue('fundId2'));
+        },
+        parseMagic3: function(text) {
+          SgmfWidget.parse(text, widget.getValue('fundId3'));
+        },
+        parseMagic4: function(text) {
+          SgmfWidget.parse(text, widget.getValue('fundId4'));
+        },
+        parseMagic5: function(text) {
+          SgmfWidget.parse(text, widget.getValue('fundId5'));
+        },
 
-          // If fund ID is found/valid.
-          if(fundIdMatch) {
-            var fundId = fundIdMatch[1];
-            
+        parse: function(text, fundId) {
+          // If document looks correct.
+          if(text.match(/table_bdrow1_style/)) {
             // Get fund name.
             var matches = text.match(/<b>\s*(.+?)\s*?<\/b>/m);
             var fundName = matches[1];
@@ -152,7 +164,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         for(i = 1; i <= SgmfWidget.numOfFund; i++) {
           var fundId = widget.getValue('fundId' + i);
           if (fundId != '') {
-            UWA.Data.getText(SgmfWidget.sourceUrl + fundId, SgmfWidget.parse);
+            UWA.Data.getText(SgmfWidget.sourceUrl + fundId, eval('SgmfWidget.parseMagic' + i));
           }
         }
       }
