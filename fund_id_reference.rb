@@ -6,7 +6,7 @@ require 'open-uri'
 require 'nokogiri'
 
 doc = Nokogiri::HTML(open('http://www.fundsupermart.com/main/home/index.svdo'))
-funds = doc.css('select.fundselect option')
+funds = doc.css('select.fundselect[name=dest] option')
 
 output = "= Fund ID Reference =\n"
 output << "_As of #{Time.now.strftime('%d %b %Y')}_\n\n"
